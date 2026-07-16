@@ -1,13 +1,19 @@
-import math
+def factorial(n):
+    if n < 0:
+        raise ValueError("Factorial is not defined for negative numbers.")
+    product = 1
+    for i in range(2, n + 1):
+        product *= i
+    return product
 
 def permutation_without_replacement(n, r):
-    return math.factorial(n) // math.factorial(n - r)
+    return factorial(n) // factorial(n - r)
 
 def permutation_with_replacement(n, r):
     return n**r
 
 def combination_without_replacement(n, r):
-    return math.factorial(n) // math.factorial(r) // math.factorial(n - r)
+    return factorial(n) // factorial(r) // factorial(n - r)
 
 def combination_with_replacement(n, r):
-    return math.factorial(n+r-1) // math.factorial(r) // math.factorial(n - 1)
+    return factorial(n+r-1) // factorial(r) // factorial(n - 1)
