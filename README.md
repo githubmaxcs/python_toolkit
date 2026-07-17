@@ -1,4 +1,4 @@
-# computational-math-notes
+# research_toolkit
 
 ## Motivation
 
