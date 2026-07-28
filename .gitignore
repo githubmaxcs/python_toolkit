@@ -12,3 +12,4 @@ outputs/
 figures/
 data/
 *.log
+*.egg-info/
