@@ -1,5 +1,3 @@
 # research_toolkit
 
-## Motivation
-
-Starting this repository to flesh out skills in mathematics and programming. 
+The python_toolkit repository is a collection of topics explored through Python. 
